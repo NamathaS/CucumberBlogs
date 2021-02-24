@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-25T10:21:26 NZDT" name="Default suite" finished-at="2021-02-25T10:21:34 NZDT" duration-ms="8259">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.Runner@4e268090]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-02-25T10:21:26 NZDT" name="Default test" finished-at="2021-02-25T10:21:34 NZDT" duration-ms="8259">
+      <class name="testRunner.Runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.Runner@4e268090]" started-at="2021-02-25T10:21:26 NZDT" name="setUpClass" finished-at="2021-02-25T10:21:26 NZDT" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.Runner@4e268090]" started-at="2021-02-25T10:21:26 NZDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-25T10:21:34 NZDT" duration-ms="7279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Success login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.Runner@4e268090]" started-at="2021-02-25T10:21:34 NZDT" name="tearDownClass" finished-at="2021-02-25T10:21:34 NZDT" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
